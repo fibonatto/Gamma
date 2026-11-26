@@ -1,0 +1,4 @@
+/target/
+/lean/.lake/
+/lean/lake-manifest.json
+.gamma/

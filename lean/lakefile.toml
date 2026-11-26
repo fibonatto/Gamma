@@ -1,0 +1,10 @@
+name = "gamma-backend"
+version = "0.2.0"
+defaultTargets = ["LeanChecker"]
+buildDir = ".lake/build"
+
+[[lean_lib]]
+name = "LeanChecker"
+roots = ["LeanChecker"]
+precompileLibrary = true
+defaultFacets = ["leanArts", "shared"]
